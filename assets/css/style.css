@@ -1,0 +1,60 @@
+/*=====================
+      GENERAL
+=====================*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../img/wolfgang-hasselmann-WQdcQltFuI8-unsplash\ \(1\).jpg") center/cover no-repeat;
+    height: 96vh;
+    text-align: center;
+    font-size: 10px;
+}
+
+section>h1{
+    background-color: RGBA(33, 33, 33, .5);
+    color: #fff;
+    font-size: 8rem;
+    padding: 4vh;
+    margin: 4vh 5vw;;
+}
+
+article{
+    background-color: RGBA(0, 0, 0,  .1);
+    margin: 0 5vw;
+    font-family: Helvetica;
+}
+
+article>h2{
+    font-size: 12em;
+}
+
+article>p:nth-of-type(1){
+    font-size: 6em;
+    padding-top: 6vh;
+}
+
+article>p:nth-of-type(2){
+    font-size: 6em;
+    padding-top: 1vh;
+    padding-bottom: 6vh;
+}
+
+article>p:nth-of-type(3){
+    font-size: 6em;
+    padding-top: 6vh;
+    padding-bottom: 1vh;
+}
+
+article>p:nth-of-type(4){
+    font-size: 6em;
+    padding-bottom: 6vh;
+}
+
+article>h2:nth-of-type(2){
+    padding-bottom: 12vh;
+}
